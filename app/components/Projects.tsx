@@ -7,7 +7,7 @@ export default function Projects() {
     {
       name: "SF Portfolio (2025)",
       logo: "/SF_portfolio.png",
-      description: "A portfolio website hosted in Github Pages.",
+      description: "A portfolio website hosted on Vercel.",
       technologies: [
         "HTML",
         "CSS",
