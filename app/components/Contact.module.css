@@ -1,0 +1,64 @@
+.contact-details {
+  position: relative;
+  height: 150px;
+  padding: 20px;
+  border: 2px solid transparent;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(24deg, #08070c, #1e1c21, #0c0a12);
+  background-clip: padding-box;
+}
+
+.contact-details::after {
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  content: "";
+  z-index: -1;
+  border-radius: 45px;
+  pointer-events: none;
+  background: linear-gradient(48deg, #4338ca 10%, #7e22ce 40%, #db2777 90%);
+  background-size: 200% 100%;
+  animation: animate 3s ease infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+
+.contact-details a {
+  font-weight: 500;
+  font-size: 1.25rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-details a::after {
+  transition: all 0.1s ease-in-out;
+  content: "";
+  position: absolute;
+  bottom: 8%;
+  z-index: -1;
+  height: 0.3em;
+  width: 104%;
+  left: -2%;
+  background: linear-gradient(to right, #4338ca 10%, #7e22ce 40%, #db2777 90%);
+}
+
+.contact-details a:hover::after {
+  transition: height 0.1s ease-in-out;
+  height: 1em;
+}

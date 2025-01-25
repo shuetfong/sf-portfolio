@@ -1,0 +1,29 @@
+.education-card {
+  width: 100%;
+}
+
+.education-card .education-details {
+  padding: 20px;
+  border: 1px solid #cacaca36;
+  background: linear-gradient(
+    333deg,
+    #09080528 0%,
+    #332e6f34 10%,
+    #4438ca44 35%,
+    #701fb73b 50%,
+    #7827db41 65%,
+    #571f3849 90%,
+    #09080541 100%
+  );
+  box-shadow: 0 14px 28px #7e6f7c40, 2px 0px 10px #7e6f7c40;
+  backdrop-filter: blur(30px);
+}
+
+.education-card .date {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.education-card .title {
+  font-size: 17px;
+}
