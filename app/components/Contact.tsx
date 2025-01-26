@@ -19,7 +19,7 @@ export default function Contact() {
             <div className={`${styles["contact-details"]} my-4 md:w-1/2`}>
               <div>Email</div>
               <div className="tracking-tighter">
-                <a href="mailto:example@example.com">shuetfongcheang@gmail.com</a>
+                <a href="mailto:shuetfongcheang@gmail.com">shuetfongcheang@gmail.com</a>
               </div>
             </div>
             <div className={`${styles["contact-details"]} my-4 md:w-1/2`}>
