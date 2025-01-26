@@ -26,7 +26,7 @@ export default function Contact() {
               <div>LinkedIn</div>
               <div className="tracking-tighter">
                 <a
-                  href="https://www.linkedin.com/in/example"
+                  href="https://www.linkedin.com/in/shuetfong"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
