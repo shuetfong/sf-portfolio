@@ -6,7 +6,7 @@ export default function Projects() {
   const projectArr = [
     {
       name: "SF Portfolio (2025)",
-      logo: "/SF_portfolio.png",
+      logo: "/SF_Portfolio.png",
       description: "A portfolio website hosted on Vercel.",
       technologies: [
         "HTML",
