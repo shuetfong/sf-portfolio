@@ -17,7 +17,7 @@ export default function Experience() {
       ],
     },
     {
-      period: "Sep 2022 - Oct 2022",
+      period: "Oct 2021 - Jan 2022",
       company: "Doerpreneur Soft Sdn Bhd, Malaysia",
       title: "Software Developer Intern",
       description: [

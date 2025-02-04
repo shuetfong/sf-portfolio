@@ -21,7 +21,7 @@ export default function Projects() {
       name: "PlanMySpend (2024)",
       logo: "/PlanMySpend.png",
       description:
-        "A budget management system that helps users to plan and tract their incomes and expenses.",
+        "A budget management system that helps users to plan and track their incomes and expenses.",
       technologies: [
         "Java",
         "HTML",
