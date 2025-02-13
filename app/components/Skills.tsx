@@ -1,30 +1,33 @@
 import React from "react";
 import styles from "./Skills.module.css";
-import HtmlSolid from "./SVG/HtmlSolid";
-import CssSolid from "./SVG/CssSolid";
-import Less from "./SVG/Less";
-import Scss from "./SVG/Scss";
-import JavascriptFill from "./SVG/JavascriptFill";
-import TypescriptFill from "./SVG/TypescriptFill";
 import AngularSolid from "./SVG/AngularSolid";
-import ReactSolid from "./SVG/ReactSolid";
-import Jquery from "./SVG/Jquery";
-import Rxjs from "./SVG/Rxjs";
-import Ngxs from "./SVG/Ngxs";
-import JavaOutlined from "./SVG/Java";
-import Spring from "./SVG/Spring";
-import Hibernate from "./SVG/Hibernate";
-import Sql from "./SVG/Sql";
-import Oracle from "./SVG/Oracle";
-import PostgreSql from "./SVG/PostgreSql";
-import Gradle from "./SVG/Gradle";
+import Azure from "./SVG/Azure";
+import CssSolid from "./SVG/CssSolid";
 import Git from "./SVG/Git";
 import Github from "./SVG/Github";
 import Gitlab from "./SVG/Gitlab";
-import Maven from "./SVG/Maven";
-import Sonarqube from "./SVG/Sonarqube";
+import Gradle from "./SVG/Gradle";
+import Hibernate from "./SVG/Hibernate";
+import HtmlSolid from "./SVG/HtmlSolid";
+import JavaOutlined from "./SVG/Java";
+import JavascriptFill from "./SVG/JavascriptFill";
+import Jquery from "./SVG/Jquery";
+import Junit from "./SVG/Junit";
 import Jtest from "./SVG/Jtest";
+import Less from "./SVG/Less";
+import Maven from "./SVG/Maven";
 import MySql from "./SVG/MySql";
+import Ngxs from "./SVG/Ngxs";
+import Oracle from "./SVG/Oracle";
+import PostgreSql from "./SVG/PostgreSql";
+import ReactSolid from "./SVG/ReactSolid";
+import Rxjs from "./SVG/Rxjs";
+import Scss from "./SVG/Scss";
+import Sonarqube from "./SVG/Sonarqube";
+import Spring from "./SVG/Spring";
+import SpringBoot from "./SVG/SpringBoot";
+import Sql from "./SVG/Sql";
+import TypescriptFill from "./SVG/TypescriptFill";
 
 export default function Skills() {
   const frontend = [
@@ -38,13 +41,15 @@ export default function Skills() {
     { name: "React", icon: ReactSolid },
     { name: "JQuery", icon: Jquery },
     { name: "RxJS", icon: Rxjs },
-    { name: "Ngxs", icon: Ngxs },
+    { name: "NGXS", icon: Ngxs },
   ];
 
   const backend = [
     { name: "Java", icon: JavaOutlined },
     { name: "Spring", icon: Spring },
+    { name: "SpringBoot", icon: SpringBoot },
     { name: "Hibernate", icon: Hibernate },
+    // { name: "Spring Security", icon: SpringSecurity },
     { name: "SQL", icon: Sql },
     { name: "Oracle", icon: Oracle },
     { name: "MySQL", icon: MySql },
@@ -57,8 +62,10 @@ export default function Skills() {
     { name: "Git", icon: Git },
     { name: "Github", icon: Github },
     { name: "Gitlab", icon: Gitlab },
-    { name: "Sonarqube", icon: Sonarqube },
     { name: "jTest", icon: Jtest },
+    { name: "jUnit", icon: Junit },
+    { name: "Sonarqube", icon: Sonarqube },
+    { name: "Azure", icon: Azure },
   ];
 
   const mapSkills = (

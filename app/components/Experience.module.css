@@ -40,6 +40,14 @@
   backdrop-filter: blur(0);
 }
 
+.experience-technology {
+  padding: 0.2rem 0.7rem;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #00000035;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
 .experience-list .experience-group:hover {
   opacity: 1;
   backdrop-filter: blur(30px);
@@ -56,4 +64,9 @@
 
 .experience-group:hover .experience-descriptions span {
   background-color: #9469ffa2;
+}
+
+.experience-group:hover .experience-technology {
+  color: #9369ff;
+  background-color: #5a09fc35;
 }

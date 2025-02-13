@@ -15,6 +15,32 @@ export default function Experience() {
         "Utilized <span>SQL</span> for querying, managing, and optimizing relational databases, including tuning queries for better performance.",
         "Handled additional duties assigned by manager.",
       ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "Less",
+        "SCSS",
+        "JavaScript",
+        "TypeScript",
+        "Angular",
+        "AngularJS",
+        "RxJS",
+        "NGXS",
+        "Java",
+        "JSP",
+        "Spring",
+        "Hibernate",
+        "RESTful API",
+        "SQL",
+        "PL/SQL",
+        "Oracle",
+        "Gradle",
+        "Jenkins",
+        "Git",
+        "Gitlab",
+        "jTest",
+        "Sonarqube",
+      ],
     },
     {
       period: "Oct 2021 - Jan 2022",
@@ -27,6 +53,15 @@ export default function Experience() {
         "Created new user interface design using <span>Figma</span>.",
         "Involved in front-end web development using <span>HTML, CSS, JavaScript, and jQuery</span>.",
       ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Figma",
+        "UML",
+        "SQL",
+      ],
     },
   ];
 
@@ -36,6 +71,7 @@ export default function Experience() {
       company: string;
       title: string;
       description: string[];
+      technologies: string[];
     }>
   ) => {
     return experiences.map((experience, i) => {
@@ -58,9 +94,22 @@ export default function Experience() {
               </div>
               <ul className={`${styles["experience-descriptions"]}`}>
                 {experience.description.map((desc, j) => (
-                  <li key={`description_${i}_${j}`} dangerouslySetInnerHTML={{__html: desc}}></li>
+                  <li
+                    key={`description_${i}_${j}`}
+                    dangerouslySetInnerHTML={{ __html: desc }}
+                  ></li>
                 ))}
               </ul>
+              <div className="flex flex-wrap gap-2 my-3 text-xs font-semibold">
+                {experience.technologies.map((tech, j) => (
+                  <span
+                    key={`technology_${j}`}
+                    className={styles["experience-technology"]}
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </li>
@@ -75,7 +124,11 @@ export default function Experience() {
     >
       <div className="py-6">
         <div className="text-3xl font-semibold text-center pb-8">
-          E<span className="border-b-[0.45rem] border-purple-700 pb-1">xperienc</span>e
+          E
+          <span className="border-b-[0.45rem] border-purple-700 pb-1">
+            xperienc
+          </span>
+          e
         </div>
         <div>
           <ol className={styles["experience-list"]}>
